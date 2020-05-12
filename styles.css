@@ -1,0 +1,497 @@
+/* Fonts Import */
+/* Balsamiq Sans */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap");
+/* Dancing Script */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+/* Indie Flower */
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* Start of Page CSS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+main {
+  padding-bottom: 100px;
+  min-height: calc(100vh - 417px);
+}
+
+footer {
+  padding-top: 25px;
+  margin-top: 150px;
+  font-size: 10px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.349);
+  min-width: 100vw;
+}
+
+body {
+  background-color: #222;
+  color: white !important;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+a:hover {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  color: white;
+}
+
+.slider {
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 90%;
+  margin: 0 auto;
+  height: 2px;
+  background-color: white;
+  width: 0%;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
+}
+
+#made-by {
+  margin-top: 25px;
+  float: left;
+}
+
+a:hover .slider {
+  width: 100%;
+  color: #ffffff;
+}
+
+#wikiLink {
+  margin-top: 25px;
+}
+
+#tribute-link {
+  position: relative;
+}
+
+#tribute-info h1 {
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Nav bar */
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 500;
+  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  white-space: normal;
+  height: 0;
+}
+
+nav {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  float: right;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 500;
+  margin-top: 0;
+  height: 0;
+  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  font-family: 'Balsamiq Sans', cursive;
+  letter-spacing: 4px;
+  font-size: 25px;
+  display: inline-block;
+  margin: 0 10px;
+  margin-top: 5px;
+  padding: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: black;
+  font-weight: bolder;
+  z-index: 501;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+nav a:hover {
+  color: white;
+  background-color: black !important;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-radius: 0;
+  border-top: 3px solid #2f31c7;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.headerOnFrontPage a {
+  color: white !important;
+}
+
+.headerOnFrontPage a:hover {
+  background-color: white !important;
+  color: black !important;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-radius: 0;
+  border-top: 3px solid #2f31c7;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.headerOnFrontPage a:hover {
+  background-color: white !important;
+  color: black !important;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  border-radius: 0;
+  border-top: 3px solid #2f31c7;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/* Front Page */
+.frontPageCont {
+  min-height: 100vh;
+}
+
+#image {
+  display: block;
+  /*height: 100vh;*/
+  -webkit-filter: brightness(25%);
+          filter: brightness(25%);
+  width: 100%;
+  z-index: -1;
+  max-width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+#title {
+  font-family: 'Dancing Script', cursive;
+  display: block;
+  font-size: 125px;
+  color: white;
+  top: 50%;
+  margin-top: -67.5px;
+  left: 50%;
+  margin-left: -270.5px;
+  z-index: 1;
+  position: absolute;
+}
+
+figcaption {
+  text-align: left;
+  position: relative;
+  bottom: 25px;
+  color: rgba(255, 255, 255, 0.651);
+  right: 10px;
+  float: right;
+}
+
+/* Title of the page */
+.tribute-info {
+  margin-top: 150px;
+}
+
+/* First part of the website, Birth Information */
+.birth-information {
+  padding: 35px;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+#rosario-map {
+  width: 600px;
+  height: 400px;
+}
+
+.left-info {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+#born-info h1 {
+  margin-left: 25px;
+  text-align: left;
+  font-size: 50px;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}
+
+#born-info p {
+  line-height: 50px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 100px;
+  font-size: 25px;
+}
+
+.importantInfo {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 1250px) {
+  #rosario-map {
+    width: 200px;
+    height: 150px;
+  }
+  .birth-information {
+    padding: 40px;
+    padding-right: 25px;
+    background-color: rgba(0, 0, 0, 0.349);
+  }
+  #born-info h1 {
+    margin-left: 25px;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  #born-info p {
+    line-height: 40px;
+    text-align: left;
+    margin-left: 25px;
+    font-size: 20px;
+  }
+}
+
+/* CSS for all the right side texts */
+.right-info {
+  margin-left: 25px;
+  margin-right: 50px;
+  width: 50%;
+  text-align: right;
+}
+
+:root {
+  --topMargin: 150px;
+}
+
+/* The Start */
+.firstStart {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.firstStart figure {
+  width: 50%;
+}
+
+.firstStart h1 {
+  text-align: left;
+  font-size: 45px;
+}
+
+.firstStart p {
+  line-height: 50px;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.firstStart #newell-club {
+  width: 95%;
+  height: auto;
+}
+
+/* Hormone Problem */
+.hormone-problem {
+  background-color: rgba(0, 0, 0, 0.349);
+  width: 100%;
+  margin-top: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.hormone-problem figure {
+  width: 50%;
+}
+
+.hormone-problem img {
+  width: 95%;
+}
+
+.hormone-problem #hormone-problem {
+  width: 50%;
+}
+
+.hormone-problem p {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.hormone-problem h1 {
+  margin-left: 50px;
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+/* World Player */
+.world-player {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: var(--topMargin);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.world-player figure {
+  width: 50%;
+  margin-left: 15px;
+}
+
+.world-player img {
+  width: 100%;
+}
+
+.world-player h1 {
+  margin-left: 20px;
+  margin-right: 50px;
+  font-weight: bolder;
+  font-size: 55px;
+  text-align: left;
+}
+
+.world-player p {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 30px;
+  line-height: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+/* Retirement */
+.retirement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: var(--topMargin);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.retirement figure {
+  width: 50%;
+  margin-right: 25px;
+}
+
+.retirement img {
+  width: 100%;
+}
+
+.retirement #retirement {
+  margin-right: 25px;
+}
+
+.retirement h1 {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.retirement p {
+  line-height: 50px;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+/* Decisions Turned */
+.welcome-back {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: var(--topMargin);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.welcome-back figure {
+  width: 50%;
+  margin-left: 25px;
+}
+
+.welcome-back img {
+  width: 100%;
+}
+
+.welcome-back #welcome-back {
+  margin-left: 25px;
+}
+
+.welcome-back h1 {
+  font-size: 50px;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.welcome-back p {
+  line-height: 50px;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
