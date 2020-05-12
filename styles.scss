@@ -209,6 +209,8 @@ figcaption {
 /* First part of the website, Birth Information */
 
 .birth-information {
+    display: flex;
+    flex-direction: row;
 	padding: 35px;
 	background-color: rgba(0, 0, 0, 0.349);
 }
@@ -298,7 +300,7 @@ figcaption {
 	background-color: rgba(0, 0, 0, 0.349);
 
 	figure {
-		width: 50%;
+		max-width: 50%;
 	}
 
 	h1 {
@@ -331,7 +333,7 @@ figcaption {
 	flex-direction: row;
 
 	figure {
-		width: 50%;
+		max-width: 50%;
 	}
 
 	img {
@@ -368,7 +370,7 @@ figcaption {
 	background-color: rgba(0, 0, 0, 0.349);
 
 	figure {
-		width: 50%;
+		max-width: 50%;
 		margin-left: 15px;
 	}
 
